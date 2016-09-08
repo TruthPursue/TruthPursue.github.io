@@ -18,37 +18,13 @@
     <link rel="canonical" href="{{ site.url }}"/>
 </head>
 <body>
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-83876148-1', 'auto');
-    ga('send', 'pageview');
-
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function responsive() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-</script>
+{% include before-hand-js.html %}
 <article>
     <div class="container">
         <h1>
             <a href="./">{{ site.tag_text }}</a>
         </h1>
-        <div>
-            <ul class="topnav" id="myTopnav">
-                <li><a href="/">الرئيسية</a></li>
-                <li class="icon">
-                    <a href="javascript:void(0);" onclick="responsive()">&#9776;</a>
-                </li>
-            </ul>
-        </div>
+        {% include nav-bar.html %}
         {{ content }}
     </div>
 </article>
