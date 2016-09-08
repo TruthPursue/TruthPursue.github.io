@@ -16,7 +16,7 @@ layout: page
 في البداية أحب ان اوضح ان كل هذه الأدلة هي من وحي القران وما يطابقه من سنة نبي الرحمن. واتخذت قرار صارما ان لا أعتد باي سنة او حديث او سيرة او راي لأهل العلم او غيره إذا كان في ذلك مخالفة صريحة لكلام الله!
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-circle"></i>[شرعية قتل الأسير](/aseer/)</li>
+  <li><i class="fa-li fa fa-circle"></i> <a href="https://truthpursue.github.io/aseer">شرعية قتل الأسير</a> </li>
 </ul>
 
 {% include facebook-comments.html %}
