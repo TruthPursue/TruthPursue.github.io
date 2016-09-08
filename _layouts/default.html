@@ -36,19 +36,19 @@
         }
     }
 </script>
-<div>
-    <ul class="topnav" id="myTopnav">
-        <li><a href="/">الرئيسية</a></li>
-        <li class="icon">
-            <a href="javascript:void(0);" onclick="responsive()">&#9776;</a>
-        </li>
-    </ul>
-</div>
 <article>
     <div class="container">
         <h1>
             <a href="./">{{ site.tag_text }}</a>
         </h1>
+        <div>
+            <ul class="topnav" id="myTopnav">
+                <li><a href="/">الرئيسية</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" onclick="responsive()">&#9776;</a>
+                </li>
+            </ul>
+        </div>
         {{ content }}
     </div>
 </article>
