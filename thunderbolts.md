@@ -19,6 +19,8 @@ layout: page
   <li><i class="fa-li fa fa-circle"></i> <a href="https://truthpursue.github.io/aseer">جريمة قتل الأسير</a> </li>
 </ul>
 
+{% include sharing.html %}
+
 {% include facebook-comments.html %}
 
 <div class="fb-comments" data-href="https://truthpursue.github.io/thunderbolts" data-numposts="30" data-mobile="true" data-width="100%"></div>

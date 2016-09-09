@@ -50,6 +50,8 @@ layout: default
     </li>
 </ul>
 
+{% include sharing.html %}
+
 {% include facebook-comments.html %}
 
 <div class="fb-comments" data-href="https://truthpursue.github.io/types-of-supporters" data-numposts="30" data-mobile="true" data-width="100%"></div>

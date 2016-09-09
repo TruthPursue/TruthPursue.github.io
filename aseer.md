@@ -60,6 +60,8 @@ layout: page
 
 من خلال هذه الرد يتبين بطلان ما تفعله الدولة الإسلامية من الغدر بالأسرى واصرارهم وتفانيهم في ذلك، وهذ مما يدل على انهم لم يطبقوا شرع الله او يحترموا حدوده بل اجتزأوا آيات الدم والسيف وتركوا ما دونه غير مراعين لحرمة دماء المسلمين او على اقل تقدير احترام لكتاب الله.
 
+{% include sharing.html %}
+
 {% include facebook-comments.html %}
 
 <div class="fb-comments" data-href="https://truthpursue.github.io/aseer" data-numposts="30" data-mobile="true" data-width="100%"></div>
