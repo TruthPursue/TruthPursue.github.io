@@ -21,6 +21,8 @@ layout: default
 
 {% include sharing.html %}
 
+
+### التعليقات
 {% include facebook-comments.html %}
 
 <div class="fb-comments" data-href="https://truthpursue.github.io/thunderbolts" data-numposts="30" data-mobile="true" data-width="100%"></div>
