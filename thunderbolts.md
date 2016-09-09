@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 
 ### الصواعق القوية في الرد على حجج الدولة الإسلامية
@@ -19,6 +19,7 @@ layout: page
   <li><i class="fa-li fa fa-circle"></i> <a href="https://truthpursue.github.io/aseer">جريمة قتل الأسير</a> </li>
 </ul>
 
+{% include sharing.html %}
 
 {% include facebook-comments.html %}
 
