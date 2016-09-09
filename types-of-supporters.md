@@ -49,3 +49,7 @@ layout: default
     <img src="/images/supporters/mul7ed.png" />
     </li>
 </ul>
+
+{% include facebook-comments.html %}
+
+<div class="fb-comments" data-href="https://truthpursue.github.io/types-of-supporters" data-numposts="30" data-mobile="true" data-width="100%"></div>
